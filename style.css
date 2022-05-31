@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body{
+    background-image: url(pixel-art-grass-background-seamless-lawn-texture-backdrop-vector-illustration-223655094.jpg);
+    display: block;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+    font-family: Indie Flower;
+    font-size: 70px;
+    color: green;
+    margin-bottom: -20px;
+    line-height: 40px;
+}
+h2{
+    font-family: Patrick Hand;
+    font-size : 40px;
+    color: green;
+    line-height: 10px;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    border-style: dashed;
+    border-color: brown;
+}
+
+.grid{
+    margin-left: 25%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+
+.mole{
+    background-image: url('mole.jpg');
+    background-size:cover;
+}
